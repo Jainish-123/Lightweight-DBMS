@@ -1,0 +1,64 @@
+jainish,25/02/2024 16:35:38,create table student (id int# name varchar(255));
+
+jainish,25/02/2024 16:36:38,create table employee (id int# name varchar(255)# address varchar(255));
+
+jainish,25/02/2024 16:52:01,insert into student (id# name) values (1# rohit);
+
+jainish,25/02/2024 16:52:22,insert into student (id# name) values (2# virat);
+
+jainish,25/02/2024 17:07:54,create table (id int# name varchar(255));
+
+jainish,25/02/2024 17:18:53,create table abc (id int# name varchar(255));
+
+jainish,25/02/2024 17:23:35,create table abc (id# int);
+
+jainish,25/02/2024 17:30:11,create table abc (id int);
+
+jainish,25/02/2024 17:33:06,create table abc (id int# name varchar(255));
+
+jainish,25/02/2024 17:36:53,craete table abc (id int# name varchar(255));
+
+jainish,25/02/2024 17:39:48,create table city (id int# name varchar(255));
+
+jainish,25/02/2024 17:47:58,creote table city (id int# name varchar(255));
+
+jainish,25/02/2024 17:49:59,creote table city (id int# name varchar(255));
+
+jainish,25/02/2024 18:00:59,insert into student (id# name) (1# dhoni);
+
+jainish,25/02/2024 18:10:40,select * from student;
+
+jainish,25/02/2024 18:15:09,select name from student;
+
+jainish,25/02/2024 18:28:29,insert into employee (id# name# address) values (1# emp1# add1);
+
+jainish,25/02/2024 18:28:48,insert into employee (id# name# address) values (2# emp2# add2);
+
+jainish,25/02/2024 18:29:11,select id#address from employee;
+
+jainish,25/02/2024 18:35:18,select id#address from employee;
+
+jainish,25/02/2024 18:36:23,select id#address from employee;
+
+jainish,25/02/2024 18:53:21,select * student;
+
+jainish,25/02/2024 23:49:28,begin transaction;
+
+jainish,25/02/2024 23:50:55,insert into student (id# name) values (3# hardik);
+
+jainish,25/02/2024 23:51:56,insert into employee (id# name# address) values (3# emp3# add3);
+
+jainish,25/02/2024 23:52:15,select * from student;
+
+jainish,25/02/2024 23:52:31,commit;
+
+jainish,25/02/2024 23:55:53,begin transaction;
+
+jainish,25/02/2024 23:56:23,select * from employee;
+
+jainish,25/02/2024 23:56:48,insert into employee (id# name# address) values (4# emp4# add4);
+
+jainish,25/02/2024 23:57:11,rollback;
+
+jainish,25/02/2024 23:57:26,select * from employee;
+
